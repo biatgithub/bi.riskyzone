@@ -22,6 +22,7 @@ public class ContactsPresenter implements Presenter {
   private List<ContactDetails> contactDetails;
 
   public interface Display {
+	  //// this is a test for git
     HasClickHandlers getAddButton();
     HasClickHandlers getDeleteButton();
     HasClickHandlers getList();
